@@ -7,3 +7,4 @@ Language: C++
 Platform: PC (Windows)
 
 Download link: https://dofiante.itch.io/toon-tank-survival-mode
+GDD: https://docs.google.com/document/d/1--98jnqo6gZUlpHoxfXNQErm3ZpFlHgi4q9br2ucYyU/edit?usp=sharing
