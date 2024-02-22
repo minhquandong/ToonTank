@@ -30,7 +30,7 @@ void ATankAIController::Tick(float Delta)
 	if (!bCanMove) return;
 	if (!PawnTank || !PlayerTank || !PlayerTank->bIsPlayerAlive) return;
 	
-	if (GetDistanceToTarget() <= EnemyPawn->ScanRadius)
+	if (GetDistanceToTarget() <= EnemyPawn->AggroRange)
 	{
 		MoveToActor(PlayerTank, PawnTank->GetAcceptanceRadius());
 	}

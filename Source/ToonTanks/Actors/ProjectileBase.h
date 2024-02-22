@@ -58,12 +58,6 @@ private:
 
 	void SetupComponents();
 
-	void SetupInitialValues();
-
-	void SetupAttachments();
-
-	void SetupPointers();
-
 	bool HasNullPointer() const;
 
 };

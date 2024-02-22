@@ -43,7 +43,7 @@ void APawnEnemy::Tick(float DeltaTime)
 
 	if (HasNullPointers()) return;
 	
-	if (GetDistanceToPawn() <= ScanRadius)
+	if (GetDistanceToPawn() <= AggroRange)
 	{
 		RotateTurret(PlayerPawn->GetActorLocation());
 	}

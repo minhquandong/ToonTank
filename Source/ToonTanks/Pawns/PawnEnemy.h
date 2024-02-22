@@ -20,7 +20,7 @@ public:
 	virtual void HandleDestruction() override;
 
 	UPROPERTY(EditAnywhere, category = "Combat")
-	float ScanRadius = 1600.f;
+	float AggroRange = 1600.f;
 
 protected:
 	virtual void BeginPlay() override;
